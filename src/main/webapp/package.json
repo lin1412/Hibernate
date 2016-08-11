@@ -1,0 +1,37 @@
+{
+  "name": "flash",
+  "version": "1.0.0",
+  "description": "[![Build Status](http://ec2-52-42-212-64.us-west-2.compute.amazonaws.com:8080/buildStatus/icon?job=FLASH)](http://ec2-52-42-212-64.us-west-2.compute.amazonaws.com:8080/job/FLASH)",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simoncomputing/flash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simoncomputing/flash/issues"
+  },
+  "homepage": "https://github.com/simoncomputing/flash#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-nvd3": "^1.0.8",
+    "ui-bootstrap": "^0.1.2",
+    "uswds": "^0.10.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.8",
+    "jasmine": "^2.4.1",
+    "karma": "^1.1.2",
+    "karma-cli": "^1.0.1",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-jshint": "^0.1.0",
+    "karma-junit-reporter": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "phantomjs": "^2.1.7"
+  }
+}
